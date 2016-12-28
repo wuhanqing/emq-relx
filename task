@@ -1,0 +1,13 @@
+#!/bin/sh
+
+rm -rf ~/git/emq-relx-plus/_rel ~/git/emq-relx-plus/rel ~/git/emq-relx-plus/deps/emq_hook
+
+make
+
+cd ~/git/emq-relx-plus/_rel/emqttd/bin
+
+./emqttd start
+
+./emqttd_ctl plugins load emq_hook
+
+tail -f ../log/console.log
