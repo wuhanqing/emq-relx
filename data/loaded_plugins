@@ -3,3 +3,6 @@ emq_dashboard.
 emq_mod_presence.
 emq_mod_retainer.
 emq_mod_subscription.
+emq_auth_username.
+emq_auth_http.
+emq_hook.

@@ -23,7 +23,7 @@ dep_emq_mod_subscription = git https://github.com/emqtt/emq-mod-subscription mas
 
 # emq auth/acl plugins
 dep_emq_auth_clientid   = git https://github.com/emqtt/emq-auth-clientid master
-dep_emq_auth_username   = git https://github.com/emqtt/emq-auth-username master
+dep_emq_auth_username   = git https://github.com/wuhanqing/emq-auth-username wuhanqing
 dep_emq_auth_ldap       = git https://github.com/emqtt/emq-auth-ldap master
 dep_emq_auth_http       = git https://github.com/wuhanqing/emq-auth-http wuhanqing
 dep_emq_auth_mysql      = git https://github.com/emqtt/emq-auth-mysql master
